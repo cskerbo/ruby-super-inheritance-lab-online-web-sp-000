@@ -9,3 +9,9 @@ class ChattyStudent < Student
      What, you don't want any spoilers? Okay well let me just tell you who
      died..."
   end
+
+  def raise_hand
+    10.times do super
+      puts "Pick me!"
+    end
+  end
